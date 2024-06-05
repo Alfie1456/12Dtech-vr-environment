@@ -1,60 +1,33 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>3d Gallery</title>
-    <link href="/Style_Sheets/index.css" rel="stylesheet" type="text/css" />
-    <script src="https://aframe.io/releases/1.1.0/aframe.min.js"></script>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width">
+            <title>gallery</title>
+            <link href="/Style_Sheets/index.css" rel="stylesheet" type="text/css">
 </head>
+<!--- navbar --->
+<ul>
+            <li><a href="gallery.html">Car Gallery</a></li>
+            <li><a href="instructions.html">Instructions Page</a></li>
+</ul>
+<!--- navbar --->
 
-<body>
-    <a-scene>
-        <a-sky color="lightblue"></a-sky>
 
-        <!--camera-->
-        
-        <!--camera-->
 
-        <!--floor-->
-        <<a-plane position="0 -19.76598 0" height="30" width="50" rotation="-90 0 0" src="https://codehs.com/uploads/0e39131aa1b3145cfcb4dd68cf0d3136" material="" geometry="">
-                </a-plane>
-        <!--floor-->
+<h1 id="header">VR Car Gallery</h1>
 
-        <!--roof-->
-        <a-box positon="0 -5 0" height="10" widht=".5" src="https://codehs.com/uploads/c7b82b6df43245b7d7fd47a6f051c559" depth="16" rotation="0 0 90" material="" geometry="" camera="active: false" background="" vr-mode-ui="" animation="" scale="1 5 2">
-        </a-box>
-        <!--roof-->
+<!--- main text --->
+<div class="flex-container">
+            <div>The virtual reality car gallery will feature a variety of detailed car models.
+ </div>
+</div>
+<!--- main text --->
 
-        <!--rightWall-->
-        <a-box position="24.78829 -5 0" height="10" width=".5"
-            src="https://codehs.com/uploads/fb13b906129347ac05d16760963967f7" depth="16" material="" geometry=""
-            scale="1 3 2">
-        </a-box>
-        <!--rightWall-->
-
-        <!--leftWall-->
-        <a-box position="-24.72946 -5 -1.74039" height="10" width=".5"
-            src="https://codehs.com/uploads/fb13b906129347ac05d16760963967f7" depth="16" material="" geometry=""
-            scale="1 3 2">
-        </a-box>
-        <!--leftWall-->
-
-        <!--backWall-->
-        <a-box position="-0.10179 -5 -15.097" height="10" width="10"
-            src="https://codehs.com/uploads/fb13b906129347ac05d16760963967f7" depth=".5" material="" geometry=""
-            scale="5 3 1">
-        </a-box>
-        <!--backWall-->
-
-        <!--3dModel-->
-        <a-gltf-model position="0 -10 0" src="3d_models/bmw_m3_competition_tourning_g81.glb/">
-        </a-gltf-model>
-        <!--3dModel-->
-
-    </a-scene>
-
+<div class="images2">
+            <img src="Images/AlfaRomeoBG1.jpeg" alt="Alfa Romeo Giulia" height="550" width="850">
+</div>
 </body>
 
 </html>
